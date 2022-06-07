@@ -1,0 +1,208 @@
+*{/*seletor universal*/
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid rgb(185, 26, 26);
+    
+}
+
+
+
+.logo img{
+    margin-left: 45px;
+    height: 150px;
+    width: auto;
+    margin-top: -18px;
+
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.nav ul{
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu li a{
+    display: flex;
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 18px;
+    color: rgb(185, 26, 26);
+    font-weight: bold;
+    text-shadow: gray 0.5px 0.5px;
+}
+
+.menu li a:hover{
+    transform: scale(1.1);
+}
+
+.btn-menu{
+    background-color: rgb(185, 26, 26);
+    color: white;
+    border-radius: 8px;
+    align-items: center;
+    padding: 10px 6px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    width: 140px;
+    height:15px;
+    justify-content: center;
+    margin-top: 2%;
+    float:left;
+    text-align: center;
+}
+
+.btn-menu:hover{
+    background-color: #fffffff1;
+    color: rgb(185, 26, 26);
+    transform: scale(1.1);
+}
+
+.busca{
+    height: 40px;
+    width: 80vw;
+    display: flex;
+    padding-top: 4px;
+    padding-bottom:4px;
+    justify-content: center;
+    margin-left: 170px;
+    
+}
+.busca input{
+    height: 30px;
+    width: 450px;
+    justify-content: center;
+    display: flex;
+}
+
+.busca img{
+    cursor: pointer;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+section.produtos{
+    padding: 80px 0;
+    width: 100%;
+}
+
+.produto{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.item img{
+    margin-top: 30px;
+    justify-content: center;
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 37.5px;
+    margin-right: 37.5px;
+    cursor: pointer;
+}
+
+.item img:hover{
+    transform: scale(1.2);
+}
+
+.item h3{
+    color:gray;
+    text-align: center;
+    font-size: 16px;
+}
+
+.item p1{
+    color: rgb(73,73,73);
+    font-size: 15px;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 10px;
+}
+
+.item p2{
+    color: rgb(73,73,73);
+    font-size: 16px;
+    text-align: center;
+    margin-left: 37.5px;
+    margin-right: 37.5px;
+    margin-top: 10px;
+}
+
+.item p3{
+    color: rgb(73,73,73);
+    font-size: 16px;
+    text-align: center;
+    margin-left: 37.5px;
+    margin-right: 37.5px;
+    margin-top: 10px;
+}
+
+.item p4{
+    color: rgb(73,73,73);
+    font-size: 16px;
+    text-align: center;
+    margin-left: 37.5px;
+    margin-right: 37.5px;
+    margin-top: 10px;
+}
+
+
+section.rodape{
+    display: flex;
+    margin-top: 50px;
+    background-color: rgb(185, 26, 26);
+    height: 40px;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.rodape p{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align:  center;
+    position: absolute;
+    width: 100vw;
+}
+
+.txtprodutos h1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(185, 26, 26);
+    font-size: 50px;
+    text-shadow: gray 0.5px 0.5px;
+}

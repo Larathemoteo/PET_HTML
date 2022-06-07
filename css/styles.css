@@ -1,0 +1,260 @@
+*{/*seletor universal*/
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid rgb(185, 26, 26);
+    
+}
+
+
+
+.logo img{
+    margin-left: 45px;
+    height: 150px;
+    width: auto;
+    margin-top: -18px;
+
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.nav ul{
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu li a{
+    display: flex;
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 18px;
+    color: rgb(185, 26, 26);
+    font-weight: bold;
+    text-shadow: gray 0.5px 0.5px;
+}
+
+.menu li a:hover{
+    transform: scale(1.1);
+}
+
+.btn-menu{
+    background-color: rgb(185, 26, 26);
+    color: white;
+    border-radius: 8px;
+    align-items: center;
+    padding: 10px 6px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    width: 140px;
+    height:15px;
+    justify-content: center;
+    margin-top: 2%;
+    float:left;
+    text-align: center;
+}
+
+.btn-menu:hover{
+    background-color: #fffffff1;
+    color: rgb(185, 26, 26);
+    transform: scale(1.1);
+}
+
+.busca{
+    height: 40px;
+    width: 80vw;
+    display: flex;
+    padding-top: 4px;
+    padding-bottom:4px;
+    justify-content: center;
+    margin-left: 170px;
+    
+}
+.busca input{
+    height: 30px;
+    width: 450px;
+    justify-content: center;
+    display: flex;
+}
+
+.busca img{
+    cursor: pointer;
+}
+
+.carrossel{
+    max-height: 400px;
+    max-width: 700px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position:absolute ;
+    transform: translate(-50%, -50%);
+    margin-top: 17%;
+    border-radius: 20px;
+    margin-left: 50%;
+}
+
+.navegacao{
+    display: flex;
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%);
+    bottom: -10px;
+}
+
+.barra{
+    width: 20px;
+    height: 15px;
+    border: 2px solid white;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: rgb(185, 26, 26);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.barra:hover{
+    background-color: white;
+}
+
+.fotos{
+    display: flex;
+    width: 500%;
+    height: 100%;
+
+}
+
+.foto{
+    width: 20%; 
+    transition: 0.5s;
+}
+
+.fotos input{
+    display: none;
+}
+
+
+.fotos img{
+    display: flex;
+    width: 75%;
+    height: auto;
+    justify-content: space-around;
+    margin-left: 85px;
+}
+
+#foto1:checked ~ .ft1{
+    margin-left: 0;
+}
+
+#foto2:checked ~ .ft1{
+    margin-left: -20%;
+}
+
+#foto3:checked ~ .ft1{
+    margin-left: -40%;
+}
+
+#foto4:checked ~ .ft1{
+    margin-left: -60%;
+}
+
+#foto5:checked ~ .ft1{
+    margin-left: -80%;
+}
+.titulo_coluna{
+    width: 100%;
+    /*text-align: center*/
+}
+
+.texto_destaque h1{
+    color: rgb(185, 26, 26);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px; 
+    margin-top: 600px;
+}
+
+.texto_destaque p1{
+    color: gray;
+    width: 100vw;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bloco{
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.conteudo{
+    width: 20%;
+    height: 200px;
+    
+}
+
+.conteudo h3{
+    margin-top: 25px;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+
+.conteudo img{
+    width: flex;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 2px;
+    display: flex ;
+}
+
+.conteudo p{
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+}
+
+section.rodape{
+    display: flex;
+    margin-top: 50px;
+    background-color: rgb(185, 26, 26);
+    height: 40px;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.rodape p{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align:  center;
+    position: absolute;
+    width: 100vw;
+}
